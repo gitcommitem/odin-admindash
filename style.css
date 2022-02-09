@@ -68,7 +68,7 @@ nav.hflex{
 }
 
 input{
-    width: 79ch;
+    width: 78ch;
     border-radius: 0.5rem;
     border: 1px solid lightgray;
     background-color: var(--gray);
@@ -155,6 +155,8 @@ button:last-of-type{
 
 .card{
     padding: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 6.77fr 1fr;
 }
 
 .card img:last-of-type{
@@ -193,6 +195,14 @@ div.user{
     margin-bottom: 1rem;
 }
 
+div.user:last-of-type{
+    margin-bottom: 0;
+}
+
+p.user{
+    opacity: 0.6;
+}
+
 div.profilepic#user-a{
     background-image: url(assets/profilepics/animal_neko.png);
     background-color: brown;
@@ -208,4 +218,23 @@ div.profilepic#user-b{
 div.profilepic#user-c{
     background-image: url(assets/profilepics/animal_usagi.png);
     background-color: steelblue;
+}
+
+p.self{
+    font-weight: 700;
+    line-height: 125%;
+    position: relative;
+    top: 0.2rem;
+}
+
+p.desc{
+    opacity: 0.6;
+    display: -webkit-box;
+     -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.135);
 }
