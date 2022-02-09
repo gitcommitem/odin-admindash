@@ -6,7 +6,7 @@
 
 body{
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4.5fr;
 }
 
 .hflex{
@@ -21,8 +21,29 @@ body{
     padding-right: 1.5rem;
 }
 
+#logo{
+    width: 2rem;
+    margin-right: 0.5rem;
+    margin-left: -0.25rem;
+}
+
 ul{
     padding: 0;
+}
+
+ul.nav{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+ul.nav img{
+  margin-top: 0.2rem;
+}
+
+li{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 main{
