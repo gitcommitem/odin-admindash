@@ -111,15 +111,32 @@ button{
     gap: 1rem;
 }
 
-.card{
+.card-cont{
     background-color: white;
     border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 0.5rem 1fr;
+}
+
+.color-bar{
+    background-color: goldenrod;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.card{
     padding: 1rem;
-    height: 10rem;
+}
+
+.card img:last-of-type{
+    margin-right: 0;
 }
 
 p.title{
     font-weight: 700;
+}
+
+.footer img:first-of-type{
+    margin-left: auto;
 }
 
 #announcements{
@@ -131,6 +148,10 @@ p.title{
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
+}
+
+.long-card,.card-cont{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 #trending{
