@@ -83,11 +83,19 @@ input{
 }
 
 .profilepic{
-    background-color: gray;
     border-radius: 100rem;
+    border: 2px solid rgba(0, 0, 0, 0.03);
     width: 3rem;
     height: 3rem;
     margin-right: 0.5rem;
+    background-size: 105%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div.profilepic.self{
+    background-image: url(assets/profilepics/animal_hamster.png);
+    background-color: yellowgreen;
 }
 
 .profilepic#big{
@@ -183,4 +191,21 @@ p.title{
 
 div.user{
     margin-bottom: 1rem;
+}
+
+div.profilepic#user-a{
+    background-image: url(assets/profilepics/animal_neko.png);
+    background-color: brown;
+   
+}
+
+div.profilepic#user-b{
+    background-image: url(assets/profilepics/animal_kuma.png);
+    background-color: purple;
+    
+}
+
+div.profilepic#user-c{
+    background-image: url(assets/profilepics/animal_usagi.png);
+    background-color: steelblue;
 }
