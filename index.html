@@ -4,11 +4,167 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Admin Dashboard</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="sidebar">
+        <h1>Dashboard</h1>
+        <ul role="list">
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>History</li>
+            <li>Tasks</li>
+            <li>Communities</li>
+        </ul>
+        <ul role="list">
+            <li>Settings</li>
+            <li>Support</li>
+            <li>Privacy</li>
+        </ul>
+    </div>
+    <main>
+        <nav class="hflex" id="top-nav">
+            <div class="hflex">
+                <img  class="icon" src="assests/icons/magnifying-glass-bold.svg" alt="Search Icon">
+                <input type="search">
+            </div>
+            <div class="hflex">
+                <img class="icon" src="assests/icons/bell-ringing-bold.svg" alt="Notifications Icon">
+                <div class="profilepic"></div>
+                <h2>Name</h2>
+            </div>
+        </nav>
+       <nav class="hflex">
+           <div class="hflex" id="greeting">
+               <div class="profilepic" id="big"></div>
+               <div>
+                   <p>Hi there,</p>
+                   <h2>Name</h2>
+               </div>
+           </div>
+           <div>
+               <button type="button">New</button>
+               <button type="button">Upload</button>
+               <button type="button">Share</button>
+           </div>
+       </nav>
+       <div id="main-cont">
+           <section id="projects">
+               <h3 class="section-title">Your Projects</h3>
+               <div id="project-cont">
+                   <div class="card">
+                       <p class="title">Title</p>
+                       <p class="desc">Description</p>
+                       <div class="footer hflex">
+                        <img src="assests/icons/star-bold.svg" alt="Star Icon" class="icon">
+                        <img src="assests/icons/eye-bold.svg" alt="Watch Icon" class="icon">
+                        <img src="assests/icons/share-network-bold.svg" alt="Share Icon" class="icon">
+                    </div>
+                   </div>
+                   <div class="card">
+                        <p class="title">Title</p>
+                        <p class="desc">Description</p>
+                        <div class="footer hflex">
+                            <img src="assests/icons/star-bold.svg" alt="Star Icon" class="icon">
+                            <img src="assests/icons/eye-bold.svg" alt="Watch Icon" class="icon">
+                            <img src="assests/icons/share-network-bold.svg" alt="Share Icon" class="icon">
+                        </div>
+                   </div>
+                   <div class="card">
+                        <p class="title">Title</p>
+                        <p class="desc">Description</p>
+                        <div class="footer hflex">
+                            <img src="assests/icons/star-bold.svg" alt="Star Icon" class="icon">
+                            <img src="assests/icons/eye-bold.svg" alt="Watch Icon" class="icon">
+                            <img src="assests/icons/share-network-bold.svg" alt="Share Icon" class="icon">
+                        </div>
+                   </div>
+                   <div class="card">
+                        <p class="title">Title</p>
+                        <p class="desc">Description</p>
+                        <div class="footer hflex">
+                            <img src="assests/icons/star-bold.svg" alt="Star Icon" class="icon">
+                            <img src="assests/icons/eye-bold.svg" alt="Watch Icon" class="icon">
+                            <img src="assests/icons/share-network-bold.svg" alt="Share Icon" class="icon">
+                        </div>
+                   </div>
+                   <div class="card">
+                        <p class="title">Title</p>
+                        <p class="desc">Description</p>
+                        <div class="footer hflex">
+                            <img src="assests/icons/star-bold.svg" alt="Star Icon" class="icon">
+                            <img src="assests/icons/eye-bold.svg" alt="Watch Icon" class="icon">
+                            <img src="assests/icons/share-network-bold.svg" alt="Share Icon" class="icon">
+                        </div>
+                   </div>
+                   <div class="card">
+                        <p class="title">Title</p>
+                        <p class="desc">Description</p>
+                        <div class="footer hflex">
+                            <img src="assests/icons/star-bold.svg" alt="Star Icon" class="icon">
+                            <img src="assests/icons/eye-bold.svg" alt="Watch Icon" class="icon">
+                            <img src="assests/icons/share-network-bold.svg" alt="Share Icon" class="icon">
+                        </div>
+                   </div>
+               </div>
+           </section>
+           <section id="annoucements">
+            <h3 class="section-title">Announcements</h3>
+            <div class="long-card">
+                <div>
+                    <p class="title">Title</p>
+                    <p class="desc">Description</p>
+                </div>
+                <hr>
+                <div>
+                    <p class="title">Title</p>
+                    <p class="desc">Description</p>
+                </div>
+                <hr>
+                <div>
+                    <p class="title">Title</p>
+                    <p class="desc">Description</p>
+                </div>
+            </div>
+           </section>
+           <section id="trending">
+            <h3 class="section-title">Trending Projects</h3>
+            <div class="long-card">
+                <div class="user hflex">
+                    <div class="profilepic"></div>
+                    <div>
+                        <p class="user">@name</p>
+                        <p class="project-name">Project Name</p>
+                    </div>
+                </div>
+                <div class="user hflex">
+                    <div class="profilepic"></div>
+                    <div>
+                        <p class="user">@name</p>
+                        <p class="project-name">Project Name</p>
+                    </div>
+                </div>
+                <div class="user hflex">
+                    <div class="profilepic"></div>
+                    <div>
+                        <p class="user">@name</p>
+                        <p class="project-name">Project Name</p>
+                    </div>
+                </div>
+                <div class="user hflex">
+                    <div class="profilepic"></div>
+                    <div>
+                        <p class="user">@name</p>
+                        <p class="project-name">Project Name</p>
+                    </div>
+                </div>
+            </div>
+           </section>
+       </div>
+    </main>
     
 </body>
 </html>
