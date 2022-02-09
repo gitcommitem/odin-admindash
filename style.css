@@ -121,7 +121,7 @@ button:last-of-type{
 #main-cont{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 2rem;
     margin: 2rem;
 }
